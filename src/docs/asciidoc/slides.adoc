@@ -4,10 +4,17 @@ Doc Writer <doc.writer@example.org>
 :revnumber: {project-version}
 :revealjs_theme: moon
 // :revealjs_customtheme: reveal.js/dist/theme/moon.css
+:customcss: styles/my.css
 :source-highlighter: highlight.js
 :example-caption!:
 ifndef::imagesdir[:imagesdir: images]
 ifndef::sourcedir[:sourcedir: ../../main/java]
+
+== My test
+
+[.big]##O##nce upon an infinite loop.
+
+Type the word [.userinput]#asciidoctor# into the search bar.
 
 == Introduction
 
@@ -43,6 +50,11 @@ This page was built by the following command:
 You can press `*b*` or `*.*` to blank your current screen.
 
 Hit it again to bring it back.
+
+You can use steps to [.highlight-strong]#highlight#
+
+You can use steps to [.highlight-strong.step]#highlight#
+
 
 == Overview
 
