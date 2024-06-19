@@ -16,6 +16,10 @@ ifndef::sourcedir[:sourcedir: ../../main/java]
 
 Type the word [.userinput]#asciidoctor# into the search bar.
 
+Mark my words, #automation is essential#.
+
+`*_monospace bold italic phrase_*` & ``**__char__**``acter``**__s__**``
+
 == Introduction
 
 [%step]

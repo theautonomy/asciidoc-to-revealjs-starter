@@ -1,7 +1,7 @@
 .userinput {
   color: blue;
   background-color: yellow !important;
-  font-family: monospace;
-  font-size: 1.1em;
-  line-height: calc(1 / 1.1);
+  /* font-family: monospace; */
+  /* font-size: 1.1em; */
+  /* line-height: calc(1 / 1.1); */
 }

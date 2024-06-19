@@ -1,0 +1,179 @@
+= WebClient & RestClint Auto Configuration 
+Wei Li
+2024-06-21
+:revnumber: {project-version}
+:revealjs_theme: moon
+:customcss: styles/my.css
+:source-highlighter: highlight.js
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../../main/java]
+
+[.columns]
+== My test
+[.fragment]
+
+[.column]
+[.fragment]
+--
+[%hardbreaks]
+[.userinput]#1 - Starting point#
+2 - Starting point
+3 - Starting point
+4 - Starting point
+5 - Starting point
+6 - Starting point
+7 - Starting point
+--
+
+[.column]
+[.fragment]
+--
+What we do here
+
+--
+
+[.columns]
+== My test
+[.fragment]
+
+[.column]
+[.fragment]
+--
+[%hardbreaks]
+1 - Starting point
+[.userinput]#2 - Starting point#
+3 - Starting point
+4 - Starting point
+5 - Starting point
+6 - Starting point
+7 - Starting point
+--
+
+[.column]
+[.fragment]
+--
+What we do here
+
+--
+
+[.columns]
+== My test
+[.fragment]
+
+[.column]
+[.fragment]
+--
+[%hardbreaks]
+1 - Starting point
+2 - Starting point
+[.userinput]#3 - Starting point#
+4 - Starting point
+5 - Starting point
+6 - Starting point
+7 - Starting point
+--
+
+[.column]
+[.fragment]
+--
+What we do here
+
+--
+
+[.columns]
+== My test
+[.fragment]
+
+[.column]
+[.fragment]
+--
+[%hardbreaks]
+1 - Starting point
+2 - Starting point
+3 - Starting point
+[.userinput]#4 - Starting point#
+5 - Starting point
+6 - Starting point
+7 - Starting point
+--
+
+[.column]
+[.fragment]
+--
+What we do here
+
+--
+
+[.columns]
+== My test
+[.fragment]
+
+[.column]
+[.fragment]
+--
+[%hardbreaks]
+1 - Starting point
+2 - Starting point
+3 - Starting point
+4 - Starting point
+[.userinput]#5 - Starting point#
+6 - Starting point
+7 - Starting point
+--
+
+[.column]
+[.fragment]
+--
+What we do here
+
+--
+
+[.columns]
+== My test
+[.fragment]
+
+[.column]
+[.fragment]
+--
+[%hardbreaks]
+1 - Starting point
+2 - Starting point
+3 - Starting point
+4 - Starting point
+5 - Starting point
+[.userinput]#6 - Starting point#
+7 - Starting point
+--
+
+[.column]
+[.fragment]
+--
+What we do here
+
+--
+
+[.columns]
+== My test
+[.fragment]
+
+[.column]
+[.fragment]
+--
+[%hardbreaks]
+1 - Starting point
+2 - Starting point
+7 - Starting point
+3 - Starting point
+4 - Starting point
+5 - Starting point
+6 - Starting point
+[.userinput]#7 - Starting point#
+--
+
+[.column]
+[.fragment]
+--
+What we do here
+
+--
