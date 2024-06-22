@@ -3,6 +3,8 @@ Wei Li
 2024-06-21
 :revnumber: {project-version}
 :revealjs_theme: moon
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
+// :backend: revealjs
 :customcss: styles/my.css
 :source-highlighter: highlight.js
 :example-caption!:

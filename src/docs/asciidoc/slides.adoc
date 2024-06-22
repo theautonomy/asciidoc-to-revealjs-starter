@@ -3,6 +3,8 @@ Doc Writer <doc.writer@example.org>
 2014-09-09
 :revnumber: {project-version}
 :revealjs_theme: moon
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
+// :backend: revealjs
 // :revealjs_customtheme: reveal.js/dist/theme/moon.css
 :customcss: styles/my.css
 :source-highlighter: highlight.js
