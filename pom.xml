@@ -11,10 +11,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.slides.directory>${project.build.directory}/generated-slides</project.slides.directory>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <asciidoctor.maven.plugin.version>3.0.0</asciidoctor.maven.plugin.version>
+        <asciidoctorj-revealjs.version>5.1.0</asciidoctorj-revealjs.version>
+        <asciidoctorj.version>2.5.13</asciidoctorj.version>
     </properties>
 
     <build>
@@ -28,16 +29,24 @@
                     <dependency>
                         <groupId>org.asciidoctor</groupId>
                         <artifactId>asciidoctorj-revealjs</artifactId>
-                        <version>5.1.0</version>
+                        <version>${asciidoctorj-revealjs.version}</version>
                     </dependency>
                     <dependency>
                         <groupId>org.asciidoctor</groupId>
                         <artifactId>asciidoctorj</artifactId>
-                        <version>2.5.13</version>
+                        <version>${asciidoctorj.version}</version>
                     </dependency>
                 </dependencies>
                 <configuration>
                     <!-- <sourceDirectory>java21</sourceDirectory> -->
+                    <backend>revealjs</backend>
+                    <requires>
+                        <require>asciidoctor-revealjs</require>
+                    </requires>
+                    <attributes>
+                        <revealjsdir>https://cdn.jsdelivr.net/npm/reveal.js@5.1.0</revealjsdir>
+                        <project-version>${project.version}</project-version>
+                    </attributes>
                 </configuration>
                 <executions>
                     <execution>
@@ -46,16 +55,6 @@
                         <goals>
                             <goal>process-asciidoc</goal>
                         </goals>
-                        <configuration>
-                            <requires>
-                                <require>asciidoctor-revealjs</require>
-                            </requires>
-                            <outputDirectory>${project.slides.directory}</outputDirectory>
-                            <backend>revealjs</backend>
-                            <attributes>
-                                <project-version>${project.version}</project-version>
-                            </attributes>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>

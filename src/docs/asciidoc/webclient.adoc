@@ -3,15 +3,24 @@ Wei Li
 2024-06-21
 :revnumber: {project-version}
 :revealjs_theme: moon
-:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
-// :backend: revealjs
 :customcss: styles/my.css
 :source-highlighter: highlight.js
 :example-caption!:
 ifndef::imagesdir[:imagesdir: images]
 ifndef::sourcedir[:sourcedir: ../../main/java]
 
-[.columns]
+== Topic
+
+[.highlight-blue%step]
+blue
+
+[%step]
+white
+
+[.highlight-red%step]
+red
+
+[.columns.is-vcentered]
 == My test
 [.fragment]
 
@@ -28,7 +37,7 @@ ifndef::sourcedir[:sourcedir: ../../main/java]
 7 - Starting point
 --
 
-[.column]
+[.column.is-vcentered]
 [.fragment]
 --
 What we do here
@@ -52,7 +61,7 @@ What we do here
 7 - Starting point
 --
 
-[.column]
+[.column.is-vcentered]
 [.fragment]
 --
 What we do here
